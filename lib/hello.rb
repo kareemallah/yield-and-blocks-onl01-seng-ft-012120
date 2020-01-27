@@ -1,9 +1,4 @@
 def hello_t
-
-end
-
-# call your method here!
-
 list = ["ab", "cd", "ef"]
 
 def my_each(array)
@@ -28,4 +23,9 @@ def hello(array)
   collection
 end
 
-hello(list) {|i| "Hello #{i} what's up?"}
+end
+
+# call your method here!
+
+
+hello_t(list) {|i| "Hello #{i} what's up?"}
